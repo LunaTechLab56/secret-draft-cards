@@ -37,9 +37,9 @@ Click on "Environment Variables" and add the following variables:
 
 ```
 NEXT_PUBLIC_CHAIN_ID=11155111
-NEXT_PUBLIC_RPC_URL=https://sepolia.infura.io/v3/b18fb7e6ca7045ac83c41157ab93f990
-NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=2ec9743d0d0cd7fb94dee1a7e6d33475
-NEXT_PUBLIC_INFURA_API_KEY=b18fb7e6ca7045ac83c41157ab93f990
+NEXT_PUBLIC_RPC_URL=your_rpc_endpoint_here
+NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=your_wallet_connect_project_id_here
+NEXT_PUBLIC_INFURA_API_KEY=your_infura_api_key_here
 ```
 
 **Important**: Make sure to add these variables for all environments (Production, Preview, Development).
@@ -87,9 +87,9 @@ If you need to customize the build process:
 | Variable | Value | Description |
 |----------|-------|-------------|
 | `NEXT_PUBLIC_CHAIN_ID` | `11155111` | Ethereum Sepolia testnet chain ID |
-| `NEXT_PUBLIC_RPC_URL` | `https://sepolia.infura.io/v3/...` | RPC endpoint for blockchain connection |
-| `NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID` | `2ec9743d0d0cd7fb94dee1a7e6d33475` | WalletConnect project ID |
-| `NEXT_PUBLIC_INFURA_API_KEY` | `b18fb7e6ca7045ac83c41157ab93f990` | Infura API key for RPC access |
+| `NEXT_PUBLIC_RPC_URL` | `your_rpc_endpoint_here` | RPC endpoint for blockchain connection |
+| `NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID` | `your_wallet_connect_project_id_here` | WalletConnect project ID |
+| `NEXT_PUBLIC_INFURA_API_KEY` | `your_infura_api_key_here` | Infura API key for RPC access |
 
 ## Troubleshooting
 
